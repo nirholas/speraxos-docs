@@ -1,0 +1,10 @@
+{
+  "name": "speraxos",
+  "version": "0.1.0",
+  "description": "Check and read the SperaxOS discovery surface (x402 resources, MCP catalog, agent card) using the documented endpoints and snippets.",
+  "author": {"name": "nirholas"},
+  "repository": "https://github.com/nirholas/speraxos-docs",
+  "homepage": "https://chat.sperax.io",
+  "license": "Apache-2.0",
+  "keywords": ["sperax", "speraxos", "x402", "mcp", "agent-discovery", "erc-8004"]
+}
