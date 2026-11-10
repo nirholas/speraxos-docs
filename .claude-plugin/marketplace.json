@@ -1,13 +1,20 @@
 {
-  "name": "speraxos",
-  "owner": {"name": "nirholas"},
+  "name": "speraxos-docs",
+  "owner": {
+    "name": "nirholas"
+  },
   "description": "SperaxOS agent discovery helpers: verify well-known files, list x402 resources and MCP endpoints.",
   "plugins": [
     {
       "name": "speraxos",
-      "source": "./",
+      "source": "./plugins/speraxos",
       "description": "Skill for verifying and querying the SperaxOS discovery surface.",
-      "tags": ["x402", "mcp", "agent-discovery"]
+      "category": "development",
+      "tags": [
+        "x402",
+        "mcp",
+        "agent-discovery"
+      ]
     }
   ]
 }
